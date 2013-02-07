@@ -25,7 +25,7 @@ $(function(){
             $("#viewtwit").append(data)
         }); 
     };
-    setInterval(gettwits, 1000);
+    setInterval(gettwits, 2000);
 
     
 })
