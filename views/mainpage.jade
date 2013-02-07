@@ -1,0 +1,15 @@
+extends layout 
+
+block content
+    h1(id="titletext") Crappy Twitter
+    div(id="entertwit", value=user)
+        if (user)
+            h3 Welcome #{user}
+            h4 Compose a Twit <input type="text" name="twit" id="twit" />
+            | 
+            <input type="submit" value="Send twit!" id="entertwitbutton" />
+        else
+            h2 Please sign in!
+    div(id="viewtwit")
+        h3 Look at all these twits!
+        include _twits

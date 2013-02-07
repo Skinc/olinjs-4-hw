@@ -1,0 +1,86 @@
+
+
+.button{
+    background: #222 url(/images/alert-overlay.png) repeat-x;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px #999;
+    -webkit-box-shadow: 0 1px 3px #999;
+    text-shadow: 0 -1px 1px #222;
+    border-bottom: 1px solid #222;
+
+
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#titletext{
+    text-align: center;
+}
+
+#entertwit{
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    background-color: lightgray;
+    border: black solid;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#viewtwit{
+    position: absolute;
+    left: 480px;
+    top: 150px;
+    background-color: lightgray;
+    width: 600px;
+    border: black solid;   
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+
+
+}
+
+#twitstream{
+    border-radius: 0;
+    border: black solid 2px;
+}
+
+
+
+#entertwitbutton{
+    position: relative;
+    left: 97px;
+    top: -10px;
+}
+
+.twit{
+    position: relative;
+    left: 10px;
+}
+.twituser{
+    text-align: left;
+    font-size: 20px; 
+}
+
+.twitcontent{
+    text-align: left;
+    font-size: 14px;
+    width: 500px;
+
+}   

@@ -1,0 +1,5 @@
+div(id="twitstream")
+    each twit, i in twits
+        div(class="twit") 
+            h3(class="twituser") #{twit.user} 
+            p(class="twitcontent") #{twit.twit}

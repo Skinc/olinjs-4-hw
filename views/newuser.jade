@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    div
+        h2 Welcome to Tweeter!
+        form(id="username_input", action="/users/new", method='post')
+            h4 Username: <input type="text" name="user" id="username" />
+            input(type="submit", value="Sign in", class="button", id="signinButton")
